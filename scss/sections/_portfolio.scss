@@ -1,0 +1,80 @@
+/* Portfolio Section Styles ------*/
+
+section#portfolio {
+	@extend %padding-bottom;
+	background-color: $grey;
+
+    figure {
+		@extend %padding-bottom;
+		@extend %center;
+
+		// These two queries do not work. Just here for demo. 
+		// Real queries located in _main.scss
+
+		@media #{$brk-medium} {
+			width: 50%;
+			float: left;
+		}
+
+		@media #{$brk-wide} {
+			width: 33.333%;
+		}
+	}
+
+	figure img {
+		@media #{$brk-medium} {
+			padding: .5em;
+		}
+	}
+
+	.project-title {
+		padding:1.5em 0 .5em 0;
+		font-size: $proj-title;
+		color: $coal;
+
+		@media #{$brk-medium} {
+			font-size: 18px;
+			padding-top: .5em;
+		}
+	}
+
+	.description {
+		font-size: $sub-header;
+		font-weight: $light;
+		line-height: 1.5;
+		color: $coal;
+
+		@media #{$brk-medium} {
+			width: 80%;
+			margin: auto;
+			font-size: 16px;
+		}
+	}
+
+	.medium-clear {
+		@media #{$brk-medium} {
+			clear: both;
+		}
+
+		@media #{$brk-wide} {
+			display: none;
+		}
+	}
+
+	.wide-clear {
+		@media #{$brk-wide} {
+			clear: both;
+		}	
+	}
+
+	@media #{$brk-medium} {
+		clear: both;
+		padding: 0 1em 0 1em;
+	}
+
+	@media #{$brk-wide} {
+		width: 95%; 
+		margin: auto;
+	}
+
+}

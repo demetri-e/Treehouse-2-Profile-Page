@@ -1,0 +1,33 @@
+/* Base Styles ------*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $black;
+	text-align: center;
+	font-family: $stack-sans-serif; 
+
+		img {
+			width: 100%;
+		}
+
+		.container {
+			@extend %center;
+		}
+}
+
+header {
+	@media #{$brk-wide} {
+		padding-top: 3em;
+	}
+}
+
+
+
+ .clear-fix::after {
+  content: "";
+  display: table; 
+  clear: both; 
+}

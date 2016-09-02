@@ -1,0 +1,47 @@
+/* Footer Styles ------*/
+
+footer {
+	padding: $padding-even;
+	border-top: 1px solid $grey;
+	font-size: $footer; 
+	font-weight: $heavy;
+
+        h4 {
+			float: left; 
+			color: $white;
+
+			@media #{$brk-medium} {
+				font-size: $footer;
+			}
+		}
+
+		a {
+			float: right;
+			text-transform: uppercase;
+			font-size: $footer;
+			font-weight: $heavy;
+			color: $white;
+		}
+
+		.back-to-top {
+			@media #{$brk-medium} {
+				display: none;
+			}
+		}
+
+}
+
+nav#footer-nav {
+	display: none;
+
+	a {
+		@media #{$brk-medium} {
+			font-size: 12px;
+		}
+	}
+
+	@media #{$brk-medium} {
+		display: block;
+		float: right;
+	}
+}

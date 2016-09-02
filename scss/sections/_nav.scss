@@ -1,0 +1,39 @@
+/* Navigation Styles ------*/
+
+nav {
+
+	ul li {
+		background: $grey;
+		margin-bottom: .33em;
+
+	@media #{$brk-medium} {
+		background: none;
+		display: inline-block;
+		}	
+	}
+
+	 ul a {
+		@include bold;
+		display: block;
+		color: $coal; 
+		letter-spacing: .75px;
+		padding: 1em 0;
+
+		@media #{$brk-medium} {
+			padding: 0 1em;
+			color: #fff;
+		}
+	}
+
+	@media #{$brk-medium} {
+		padding-bottom: 3em;
+	}
+
+	&#main-nav {
+		@media #{$brk-wide} {
+			float: right;
+			display: inline-block;
+		}
+	}
+
+}

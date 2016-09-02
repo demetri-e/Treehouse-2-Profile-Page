@@ -1,0 +1,47 @@
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-size: $body-text;
+	font-weight: $light;
+	line-height: 1.5;
+	color: $white;
+	
+}
+
+section#portfolio p {
+	color: $black;
+}
+
+h1 {
+	font-size: $title;
+	font-weight: $heavy;
+	letter-spacing: 1px;
+	color: $white;
+	padding: 1em 0;
+
+	@media #{$brk-medium} {
+		padding-top: 2em;
+	}
+
+	@media #{$brk-wide} {
+		float: left;
+		display: inline-block;
+		padding-top: 0;
+	}
+}
+
+section#portfolio h1 {
+	color: $black;
+}
+
+h2 {
+	@include bold;
+	padding: 3em 0;
+}
+
+section#contact h2 {
+	color: $white;
+}

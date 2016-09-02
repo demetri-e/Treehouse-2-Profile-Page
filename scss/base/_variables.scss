@@ -1,0 +1,56 @@
+
+
+// Color Variables
+
+$black: 		rgba(0,0,0,1);
+$white: 		rgba(255,255,255,1);
+$grey:          rgba(255,255,255,.925);
+$coal: 			rgba(0,0,0,.85);
+
+$scooter:	 	#36acd0; 		//lightblue
+$goldenGrass: 	#e0ab26; 		//yellow
+$fountainBlue: 	#52bab4;		//green
+$matisse: 		#2472aa;		//blue
+$dolphin: 		#675a85;		//purple
+$vinRouge: 		#903c53;		//maroon
+
+
+//Functional Color Variables
+
+ 
+$light-blue: 	$scooter; 
+$yellow: 		$goldenGrass; 
+$green: 		$fountainBlue; 
+$blue: 			$matisse; 
+$purple: 		$dolphin; 
+$maroon: 		$vinRouge;
+
+// Font Stack
+
+$stack-sans-serif : 'Khula', Helvetica, Arial, sans-serif;
+
+// Font Weight
+
+ $heavy: 700; 
+ $medium: 600;
+ $light: 300; 
+
+ // Font Size 
+
+$title :   27px;
+$proj-title: 20px;
+$sub-header : 16px; 
+$body-text : 17px; 
+$footer : 15px;
+$small	: 12px;
+
+// Padding top and Bottom
+
+$padding-even: 2em 0;
+
+//Media Query Breakpoints
+
+$brk-medium : '(min-width: 700px)';
+$brk-wide : '(min-width: 920px)';
+
+

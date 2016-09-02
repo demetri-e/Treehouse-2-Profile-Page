@@ -1,0 +1,6 @@
+
+@mixin bold {
+	text-transform: uppercase;
+	font-size: $sub-header; 
+	font-weight: $heavy;
+}

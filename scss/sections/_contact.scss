@@ -1,0 +1,38 @@
+/* Contact Section Styles ------*/
+
+section#contact {
+	padding: 1em 0 3em 0;
+
+
+	p {
+		padding-bottom: 1em;
+
+		@media #{$brk-medium} {
+			width: 70%;
+			margin: auto;
+		}
+
+		@media #{$brk-wide} {
+			width: 60%;
+			font-size: 21px;
+		}
+	}
+
+	a {
+		display: block;
+		padding: 1em 1em;
+		color: $white;
+		font-weight: $medium;
+
+		@media #{$brk-wide} {
+			font-size: 21px;
+			padding-bottom: 0;
+		}
+	}
+
+	.light {
+		font-weight: $light;
+		padding-right: .5em;
+	}
+
+}
